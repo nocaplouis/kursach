@@ -1,0 +1,65 @@
+body{
+	background-color: #14161b;
+	color:white;
+}
+
+body.center{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100% !important;
+}
+header .intert{
+	height: 100%;
+	width: 280px;
+}
+
+
+main{
+	margin-left: 280px;
+}
+
+main.center{
+	height: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.login-form{
+	width: 50%;
+	display:table;
+	margin:0 auto;
+}
+
+.login-form input, select{
+	margin-top: 5px;
+}
+
+.login-form button{
+	width: 100%;
+}
+
+.login-form .reg{
+	float:right;
+}
+
+
+.exam-info{
+	border:solid;
+	border-width: 1px;
+	border-color: #f8f9fa;
+	padding: 5px;
+}
+
+
+.hiding-input{
+	display: none;
+}
